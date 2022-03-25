@@ -12,15 +12,24 @@ class FirstViewController: UIViewController {
     @IBOutlet weak private var secondTextField: UITextField!
     @IBOutlet weak private var resultLabel: UILabel!
 
+    private var textFields: [UITextField] {
+        [firstTextField, secondTextField]
+    }
+
+    private let keyboardCloser = KeyboardCloser()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setUpKeyboardGesture()
-        firstTextField.setUpNumberKeyboardGesture()
-        secondTextField.setUpNumberKeyboardGesture()
+
+        keyboardCloser.regist(view: view)
+
+        textFields.forEach {
+            $0.keyboardType = .numberPad
+        }
     }
 
     @IBAction private func calcurateButtonTapped(_ sender: UIButton) {
-        let result = [firstTextField, secondTextField].compactMap { Int($0?.text ?? "") }
+        let result = textFields.compactMap { Int($0.text ?? "") }
             .reduce(0, +)
         resultLabel.text = "\(result)"
     }

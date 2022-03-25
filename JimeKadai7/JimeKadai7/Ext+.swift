@@ -8,18 +8,17 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
-    func setUpKeyboardGesture() {
+class KeyboardCloser {
+    private var targetView: UIView?
+
+    func regist(view: UIView) {
+        targetView = view
+
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapView))
         view.addGestureRecognizer(tapGesture)
     }
-    @objc private func didTapView() {
-        view.endEditing(true)
-    }
-}
 
-extension UITextField {
-    func setUpNumberKeyboardGesture() {
-        self.keyboardType = .numberPad
+    @objc private func didTapView() {
+        targetView?.endEditing(true)
     }
 }
