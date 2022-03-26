@@ -7,10 +7,6 @@
 
 import UIKit
 
-enum StoryBoardNameType {
-    static let calcuratorView = ""
-}
-
 class CalcuratorViewController: UIViewController {
 
     @IBOutlet weak private var firstTextField: UITextField!
