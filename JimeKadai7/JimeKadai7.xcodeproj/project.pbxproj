@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		20AB050F27EB5AAB00C823C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB050E27EB5AAB00C823C8 /* AppDelegate.swift */; };
 		20AB051127EB5AAB00C823C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB051027EB5AAB00C823C8 /* SceneDelegate.swift */; };
-		20AB051327EB5AAB00C823C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB051227EB5AAB00C823C8 /* FirstViewController.swift */; };
-		20AB051627EB5AAB00C823C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AB051427EB5AAB00C823C8 /* Main.storyboard */; };
 		20AB051827EB5AAC00C823C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AB051727EB5AAC00C823C8 /* Assets.xcassets */; };
-		20AB051B27EB5AAC00C823C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AB051927EB5AAC00C823C8 /* LaunchScreen.storyboard */; };
-		20AB052327EB5BD700C823C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB052227EB5BD700C823C8 /* SecondViewController.swift */; };
+		20AB054827EEBBB200C823C8 /* CalculatorIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB054727EEBBB200C823C8 /* CalculatorIF.swift */; };
+		20AB054A27EEBBCB00C823C8 /* CalcuratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB054927EEBBCB00C823C8 /* CalcuratorModel.swift */; };
+		20AB056E27EEF46B00C823C8 /* Calcurator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20AB056D27EEF46B00C823C8 /* Calcurator.storyboard */; };
+		20AB057027EEF52100C823C8 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB056F27EEF52100C823C8 /* TabViewController.swift */; };
+		20AB057227EEF63400C823C8 /* CalcuratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB057127EEF63400C823C8 /* CalcuratorViewController.swift */; };
 		CC47652868FF3BB6DCD4CB9C /* Pods_JimeKadai7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC906F7FDF1145898828361 /* Pods_JimeKadai7.framework */; };
 		E56767F427ED6DE600EA6C23 /* KeyboardCloser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56767F327ED6DE600EA6C23 /* KeyboardCloser.swift */; };
 /* End PBXBuildFile section */
@@ -22,12 +23,13 @@
 		20AB050B27EB5AAB00C823C8 /* JimeKadai7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JimeKadai7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AB050E27EB5AAB00C823C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20AB051027EB5AAB00C823C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20AB051227EB5AAB00C823C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		20AB051527EB5AAB00C823C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20AB051727EB5AAC00C823C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20AB051A27EB5AAC00C823C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20AB051C27EB5AAC00C823C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20AB052227EB5BD700C823C8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		20AB054727EEBBB200C823C8 /* CalculatorIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorIF.swift; sourceTree = "<group>"; };
+		20AB054927EEBBCB00C823C8 /* CalcuratorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuratorModel.swift; sourceTree = "<group>"; };
+		20AB056D27EEF46B00C823C8 /* Calcurator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calcurator.storyboard; sourceTree = "<group>"; };
+		20AB056F27EEF52100C823C8 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		20AB057127EEF63400C823C8 /* CalcuratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuratorViewController.swift; sourceTree = "<group>"; };
 		538038D84ED146E49E2B035B /* Pods-JimeKadai7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JimeKadai7.release.xcconfig"; path = "Target Support Files/Pods-JimeKadai7/Pods-JimeKadai7.release.xcconfig"; sourceTree = "<group>"; };
 		7BC906F7FDF1145898828361 /* Pods_JimeKadai7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JimeKadai7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A3323FE8D5C02469364778 /* Pods-JimeKadai7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JimeKadai7.debug.xcconfig"; path = "Target Support Files/Pods-JimeKadai7/Pods-JimeKadai7.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,17 +77,66 @@
 		20AB050D27EB5AAB00C823C8 /* JimeKadai7 */ = {
 			isa = PBXGroup;
 			children = (
-				20AB050E27EB5AAB00C823C8 /* AppDelegate.swift */,
-				20AB051027EB5AAB00C823C8 /* SceneDelegate.swift */,
-				20AB051227EB5AAB00C823C8 /* FirstViewController.swift */,
-				20AB052227EB5BD700C823C8 /* SecondViewController.swift */,
-				E56767F327ED6DE600EA6C23 /* KeyboardCloser.swift */,
-				20AB051427EB5AAB00C823C8 /* Main.storyboard */,
+				20AB057827EEF68D00C823C8 /* Util */,
+				20AB057727EEF67C00C823C8 /* Model */,
+				20AB057427EEF63D00C823C8 /* Support */,
+				20AB057327EEF63700C823C8 /* Screen */,
 				20AB051727EB5AAC00C823C8 /* Assets.xcassets */,
-				20AB051927EB5AAC00C823C8 /* LaunchScreen.storyboard */,
 				20AB051C27EB5AAC00C823C8 /* Info.plist */,
 			);
 			path = JimeKadai7;
+			sourceTree = "<group>";
+		};
+		20AB057327EEF63700C823C8 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				20AB057627EEF66800C823C8 /* StoryBoard */,
+				20AB057527EEF65C00C823C8 /* VC */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		20AB057427EEF63D00C823C8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				20AB050E27EB5AAB00C823C8 /* AppDelegate.swift */,
+				20AB051027EB5AAB00C823C8 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		20AB057527EEF65C00C823C8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				20AB056F27EEF52100C823C8 /* TabViewController.swift */,
+				20AB057127EEF63400C823C8 /* CalcuratorViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		20AB057627EEF66800C823C8 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				20AB056D27EEF46B00C823C8 /* Calcurator.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		20AB057727EEF67C00C823C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20AB054727EEBBB200C823C8 /* CalculatorIF.swift */,
+				20AB054927EEBBCB00C823C8 /* CalcuratorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20AB057827EEF68D00C823C8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E56767F327ED6DE600EA6C23 /* KeyboardCloser.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		8B63D5A5413E11A8669637CC /* Pods */ = {
@@ -157,9 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AB051B27EB5AAC00C823C8 /* LaunchScreen.storyboard in Resources */,
+				20AB056E27EEF46B00C823C8 /* Calcurator.storyboard in Resources */,
 				20AB051827EB5AAC00C823C8 /* Assets.xcassets in Resources */,
-				20AB051627EB5AAB00C823C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,34 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AB051327EB5AAB00C823C8 /* FirstViewController.swift in Sources */,
+				20AB057027EEF52100C823C8 /* TabViewController.swift in Sources */,
+				20AB054827EEBBB200C823C8 /* CalculatorIF.swift in Sources */,
+				20AB054A27EEBBCB00C823C8 /* CalcuratorModel.swift in Sources */,
+				20AB057227EEF63400C823C8 /* CalcuratorViewController.swift in Sources */,
 				20AB050F27EB5AAB00C823C8 /* AppDelegate.swift in Sources */,
 				E56767F427ED6DE600EA6C23 /* KeyboardCloser.swift in Sources */,
 				20AB051127EB5AAB00C823C8 /* SceneDelegate.swift in Sources */,
-				20AB052327EB5BD700C823C8 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		20AB051427EB5AAB00C823C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20AB051527EB5AAB00C823C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		20AB051927EB5AAC00C823C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20AB051A27EB5AAC00C823C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		20AB051D27EB5AAC00C823C8 /* Debug */ = {
@@ -368,8 +401,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JimeKadai7/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Calcurator;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -398,8 +430,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JimeKadai7/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Calcurator;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
     }
 
     @IBAction private func calcurateButtonTapped(_ sender: UIButton) {
-        let values = textFields.compactMap { Int($0.text ?? "") }
+        let values = textFields.map { Int($0.text ?? "") ?? 0 }
         resultLabel.text = "\(values[0] - values[1])"
     }
 }
